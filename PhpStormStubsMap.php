@@ -14742,10 +14742,13 @@ const CONSTANTS = array (
   'yaf_version' => 'yaf/yaf.php',
 );
 
-const EXTENSION_VERSIONS = array(
-  'couchbase' => array(
-    2 => array(
-      'classes' => array(
+const EXTENSION_VERSIONS = array (
+  'couchbase' => 
+  array (
+    2 => 
+    array (
+      'classes' => 
+      array (
         'Couchbase\\AnalyticsQuery' => 'couchbase_v2/couchbase.php',
         'Couchbase\\Authenticator' => 'couchbase_v2/couchbase.php',
         'Couchbase\\BooleanFieldSearchQuery' => 'couchbase_v2/couchbase.php',
@@ -14799,7 +14802,8 @@ const EXTENSION_VERSIONS = array(
         'Couchbase\\ViewQueryEncodable' => 'couchbase_v2/couchbase.php',
         'Couchbase\\WildcardSearchQuery' => 'couchbase_v2/couchbase.php',
       ),
-      'functions' => array(
+      'functions' => 
+      array (
         'Couchbase\\basicDecoderV1' => 'couchbase_v2/couchbase.php',
         'Couchbase\\basicEncoderV1' => 'couchbase_v2/couchbase.php',
         'Couchbase\\defaultDecoder' => 'couchbase_v2/couchbase.php',
@@ -14811,7 +14815,8 @@ const EXTENSION_VERSIONS = array(
         'Couchbase\\zlibCompress' => 'couchbase_v2/couchbase.php',
         'Couchbase\\zlibDecompress' => 'couchbase_v2/couchbase.php',
       ),
-      'constants' => array(
+      'constants' => 
+      array (
         'COUCHBASE_AUTH_CONTINUE' => 'couchbase_v2/toplevel.php',
         'COUCHBASE_AUTH_ERROR' => 'couchbase_v2/toplevel.php',
         'COUCHBASE_BAD_ENVIRONMENT' => 'couchbase_v2/toplevel.php',
@@ -14912,8 +14917,10 @@ const EXTENSION_VERSIONS = array(
         'Couchbase\\HAVE_ZLIB' => 'couchbase_v2/couchbase.php',
       ),
     ),
-    'default' => array(
-      'classes' => array(
+    'default' => 
+    array (
+      'classes' => 
+      array (
         'Couchbase\\AnalyticsEncryptionLevel' => 'couchbase/couchbase.php',
         'Couchbase\\AnalyticsException' => 'couchbase/couchbase.php',
         'Couchbase\\AnalyticsIndexManager' => 'couchbase/couchbase.php',
@@ -15124,15 +15131,20 @@ const EXTENSION_VERSIONS = array(
         'Couchbase\\WatchQueryIndexesOptions' => 'couchbase/couchbase.php',
         'Couchbase\\WildcardSearchQuery' => 'couchbase/couchbase.php',
       ),
-      'functions' => array(
+      'functions' => 
+      array (
       ),
-      'constants' => array(
+      'constants' => 
+      array (
       ),
     ),
   ),
-  'ds' => array(
-    2 => array(
-      'classes' => array(
+  'ds' => 
+  array (
+    2 => 
+    array (
+      'classes' => 
+      array (
         'Ds\\Heap' => 'ds_v2/ds.php',
         'Ds\\Key' => 'ds_v2/ds.php',
         'Ds\\Map' => 'ds_v2/ds.php',
@@ -15140,17 +15152,21 @@ const EXTENSION_VERSIONS = array(
         'Ds\\Seq' => 'ds_v2/ds.php',
         'Ds\\Set' => 'ds_v2/ds.php',
       ),
-      'functions' => array(
+      'functions' => 
+      array (
         'Ds\\heap' => 'ds_v2/ds.php',
         'Ds\\map' => 'ds_v2/ds.php',
         'Ds\\seq' => 'ds_v2/ds.php',
         'Ds\\set' => 'ds_v2/ds.php',
       ),
-      'constants' => array(
+      'constants' => 
+      array (
       ),
     ),
-    'default' => array(
-      'classes' => array(
+    'default' => 
+    array (
+      'classes' => 
+      array (
         'Ds\\Collection' => 'ds/ds.php',
         'Ds\\Deque' => 'ds/ds.php',
         'Ds\\Hashable' => 'ds/ds.php',
@@ -15163,9 +15179,11 @@ const EXTENSION_VERSIONS = array(
         'Ds\\Stack' => 'ds/ds.php',
         'Ds\\Vector' => 'ds/ds.php',
       ),
-      'functions' => array(
+      'functions' => 
+      array (
       ),
-      'constants' => array(
+      'constants' => 
+      array (
       ),
     ),
   ),

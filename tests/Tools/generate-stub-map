@@ -24,7 +24,6 @@ use function file_put_contents;
 use function in_array;
 use function ksort;
 use function preg_match;
-use function preg_replace;
 use function sprintf;
 use function str_replace;
 use function strlen;
@@ -307,8 +306,6 @@ use const PHP_EOL;
     $exportedFunctions = var_export($mapWithRelativeFilePaths['functions'], true);
     $exportedConstants = var_export($mapWithRelativeFilePaths['constants'], true);
     $exportedExtensionVersions = var_export($versionedMapsWithRelativeFilePaths, true);
-    $exportedExtensionVersions = preg_replace('/=>\s*\n\s*array \(/', '=> array(', $exportedExtensionVersions);
-    $exportedExtensionVersions = str_replace('array (', 'array(', $exportedExtensionVersions);
 
     $output = <<<"PHP"
 <?php
