@@ -331,7 +331,7 @@ const EXTENSION_VERSIONS = {$exportedExtensionVersions};
 }
 PHP;
 
-    $bytesWritten = @file_put_contents($mapFile, $output . PHP_EOL, LOCK_EX);
+    $bytesWritten = @file_put_contents($mapFile, $output, LOCK_EX);
 
     if ($bytesWritten === false) {
         throw new Exception(sprintf('File "%s" is not writeable.', $mapFile));
